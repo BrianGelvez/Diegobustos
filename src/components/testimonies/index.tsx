@@ -5,7 +5,7 @@ import { dataTestimonies } from "./testimonies.data";
 
 export default function Testimonies() {
   return (
-    <div className="mt-24 px-4">
+    <div className="mt-24 px-4 lg:px-10 xl:px-0 xl:w-container xl:mx-auto xl:justify-center xl:items-center">
       <Image
         src="/fondo.png"
         alt="fondo"

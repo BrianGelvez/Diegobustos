@@ -5,7 +5,7 @@ import { dataImage } from "./image.data";
 
 export default function AboutMe() {
   return (
-    <div className="mt-24 px-4">
+    <div className="mt-24 px-4 lg:px-10 xl:w-container xl:mx-auto xl:justify-center xl:items-center">
       <Image
         src="/fondo.png"
         alt="fondo"
@@ -35,9 +35,9 @@ export default function AboutMe() {
         {dataImage.map((image) => (
           <div
             key={image.id}
-            className="flex-shrink-0 min-w-full lg:min-w-0 lg:w-72 justify-center h-[450px] flex flex-col items-center mb-4 lg:mb-0"
+            className="flex-shrink-0 min-w-full lg:min-w-0 lg:w-72 justify-center h-[450px] lg:h-96 flex flex-col items-center mb-4 lg:mb-0"
           >
-            <div className="relative w-full h-[450px]">
+            <div className="relative w-full h-[450px] lg:h-96">
               <Image
                 src={image.src}
                 alt={image.alt}

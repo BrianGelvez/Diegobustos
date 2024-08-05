@@ -23,6 +23,9 @@ const config: Config = {
       },
       margin: {
         "top-layout": "10rem"
+      },
+      width: {
+        "container":"calc(100% - 400px)"
       }
     },
   },

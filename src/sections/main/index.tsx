@@ -21,8 +21,8 @@ export default function Main() {
         className="hidden lg:block"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent">
-        <div className="absolute inset-0 bg-black/60 flex flex-col">
-          <div className="relative px-6 flex flex-col items-start mt-top-layout lg:w-[70%]">
+        <div className="absolute inset-0 bg-black/60 flex flex-col xl:items-center">
+          <div className="relative xl:w-container xl:justify-center px-6 lg:px-10 xl:px-0 flex flex-col items-start mt-top-layout lg:w-[70%]">
             <div className="flex flex-row">
               <div className="flex flex-col items-start">
                 <h1 className="gradient-text text-2xl lg:text-4xl">

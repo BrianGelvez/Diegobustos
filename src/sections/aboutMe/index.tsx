@@ -6,10 +6,9 @@ export default function AboutMe() {
   return (
     <div
       id="aboutme"
-      className="mx-3 lg:mx-6 py-4 mb-20 flex flex-col lg:flex-row gap-20"
+      className="mx-3 lg:mx-10 py-4 mb-20 flex flex-col lg:flex-row gap-20 xl:w-container xl:mx-auto xl:justify-center xl:items-center"
     >
       <div className="w-full lg:w-[50%] flex flex-col justify-center items-center gap-2 lg:gap-8 border-[1px] border-[#202020] bg-gradient-to-tl from-golden-primary/20 via-transparent p-4 rounded-lg">
-        {/* <h1 className="text-4xl text-center">Sobre mi</h1> */}
         <div className="lg:flex lg:flex-col lg:justify-center lg:items-start">
           <p className="text-xl text-gray-300 mb-4">
             Hola! Soy Diego Bustos, soy{" "}
@@ -50,7 +49,7 @@ export default function AboutMe() {
           />
         </div>
       </div>
-      <div className="lg:w-[50%] lg:flex lg:flex-col">
+      <div className="lg:w-[50%] flex flex-col">
         <div className="mt-12 flex flex-col">
           <div className="flex flex-col">
             <span className="flex flex-row justify-center items-center gap-2">
