@@ -1,7 +1,7 @@
-'use client'
+"use client";
 
 import Image from "next/image";
-import { dataImage } from "./image.data"; 
+import { dataImage } from "./image.data";
 
 export default function AboutMe() {
   return (
@@ -35,9 +35,9 @@ export default function AboutMe() {
         {dataImage.map((image) => (
           <div
             key={image.id}
-            className="flex-shrink-0 min-w-full lg:min-w-0 lg:w-72 justify-center h-80 flex flex-col items-center mb-4 lg:mb-0"
+            className="flex-shrink-0 min-w-full lg:min-w-0 lg:w-72 justify-center h-96 flex flex-col items-center mb-4 lg:mb-0"
           >
-            <div className="relative w-full h-64">
+            <div className="relative w-full h-96">
               <Image
                 src={image.src}
                 alt={image.alt}
@@ -86,9 +86,12 @@ export default function AboutMe() {
         </div>
       </div>
       <div className="w-full pb-8">
-        <button className="w-full font-extralight text-slate-200 border-2 border-golden-secundary rounded-lg p-1 shadow-lg shadow-yellow-500/50">
+        <a
+          href="/services"
+          className="block w-full font-extralight text-slate-200 border-2 border-golden-secundary rounded-lg p-1 shadow-lg shadow-yellow-500/50 text-center"
+        >
           ir a mis servicios
-        </button>
+        </a>
       </div>
     </div>
   );

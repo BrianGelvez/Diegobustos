@@ -88,8 +88,8 @@ export default function Testimonies() {
           ))}
         </div>
         <div className="w-full flex flex-col justify-center items-center gap-4 my-12">
-          <button className="w-full lg:w-[40%] py-2 px-4 bg-golden-secundary bg-gradient-to-tl via-golden-primary from-golden-accent2 text-white rounded-md">Volver a mis servicios</button>
-          <button className="w-full lg:w-[40%] py-2 px-4 bg-golden-secundary bg-gradient-to-tl via-golden-primary from-golden-accent2 text-white rounded-md">Preguntas Frecuentes</button>
+          <a href="/services" className="text-center w-full lg:w-[40%] py-2 px-4 bg-golden-secundary bg-gradient-to-tl via-golden-primary from-golden-accent2 text-white rounded-md">Volver a mis servicios</a>
+          <a href="/faq" className="text-center w-full lg:w-[40%] py-2 px-4 bg-golden-secundary bg-gradient-to-tl via-golden-primary from-golden-accent2 text-white rounded-md">Preguntas Frecuentes</a>
         </div>
       </div>
     </div>

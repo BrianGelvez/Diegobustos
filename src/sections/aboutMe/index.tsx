@@ -62,18 +62,18 @@ export default function AboutMe() {
                 height={40}
               />
             </span>
-            <button className="py-2 px-4 bg-golden-secundary bg-gradient-to-tl via-golden-primary from-golden-accent2 text-white rounded-md">
+            <a href="/#contacto" className="text-center py-2 px-4 bg-golden-secundary bg-gradient-to-tl via-golden-primary from-golden-accent2 text-white rounded-md">
               Restitucion de motos
-            </button>
+            </a>
           </div>
         </div>
         <div className="w-full flex flex-col gap-5 my-12">
-          <button className="mt-2 w-full font-extralight text-slate-200 border-2 border-golden-secundary rounded-lg p-1 shadow-lg shadow-yellow-500/50">
+          <a href="/aboutMe" className="text-center mt-2 w-full font-extralight text-slate-200 border-2 border-golden-secundary rounded-lg p-1 shadow-lg shadow-yellow-500/50">
             Conoce mas sobre mi
-          </button>
-          <button className="mt-2 w-full font-extralight text-slate-200 border-2 border-golden-secundary rounded-lg p-1 shadow-lg shadow-yellow-500/50">
+          </a>
+          <a href="/services" className="text-center mt-2 w-full font-extralight text-slate-200 border-2 border-golden-secundary rounded-lg p-1 shadow-lg shadow-yellow-500/50">
             Otros servicios
-          </button>
+          </a>
         </div>
         <div className="">
           <h1 className="text-2xl gradient-text">Dirección Estudio Jurídico:</h1>

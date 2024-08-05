@@ -46,9 +46,9 @@ export default function Main() {
               Especialista en la recuperación de motos, brindando un servicio
               rápido y eficiente.
             </p>
-            <button className="w-[50%] lg:w-80 text-black mt-2 text-center font-semibold bg-golden-primary bg-gradient-to-tl from-golden-secundary via-golden-primary border-solid border-2 border-[#a9b3c9] rounded-lg p-1 shadow-lg shadow-yellow-500/50">
+            <a href="/#contacto" className="w-[50%] lg:w-80 text-black mt-2 text-center font-semibold bg-golden-primary bg-gradient-to-tl from-golden-secundary via-golden-primary border-solid border-2 border-[#a9b3c9] rounded-lg p-1 shadow-lg shadow-yellow-500/50">
               Consulta
-            </button>
+            </a>
           </div>
         </div>
         <div

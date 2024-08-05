@@ -65,7 +65,7 @@ export default function Services() {
 
               <span className="text-lg">{service.description}</span>
               <a
-                href="/#contacto"
+                href={service.link}
                 className="py-2 px-4 bg-golden-secundary bg-gradient-to-tl 
                     via-golden-primary from-golden-accent2 text-black rounded-md transform transition-transform duration-300 hover:scale-105"
               >
@@ -112,9 +112,9 @@ export default function Services() {
         ))}
       </div>
       <div className="w-full pb-8 flex justify-center items-center">
-        <button className="w-full lg:w-[50%] py-2 px-4 bg-golden-secundary bg-gradient-to-tl via-golden-primary from-golden-accent2 text-white rounded-md">
+        <a href="/testimonies" className="text-center w-full lg:w-[50%] py-2 px-4 bg-golden-secundary bg-gradient-to-tl via-golden-primary from-golden-accent2 text-white rounded-md">
           Testimonios
-        </button>
+        </a>
       </div>
     </div>
   );

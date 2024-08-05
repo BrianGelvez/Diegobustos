@@ -70,6 +70,14 @@ export default function Faq() {
           </div>
         ))}
       </div>
+      <div className="w-full py-8 flex justify-center items-center">
+        <a
+          href="/contact"
+          className="inline-block text-center w-full lg:w-[80%] py-2 px-4 bg-golden-secundary bg-gradient-to-tl via-golden-primary from-golden-accent2 text-white rounded-md"
+        >
+          Agenda una reunion 1:1
+        </a>
+      </div>
     </div>
   );
 }

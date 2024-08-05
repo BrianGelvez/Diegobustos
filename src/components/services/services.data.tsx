@@ -23,6 +23,7 @@ export const services = [
     cta: "Retira tu moto HOY!",
     icon: <RiMotorbikeFill size={36} className="text-golden-accent3" />,
     image: "/estrellas.webp",
+    link: "/#contacto"
   },
   {
     title: "Defensa Penal General",
@@ -36,6 +37,7 @@ export const services = [
     ),
     cta: "Defiende tus Derechos",
     icon: <IoShieldCheckmark size={36} className="text-golden-accent3" />,
+    link: "/contact"
   },
   {
     title: "Análisis de Riesgo del Trabajo (ART)",
@@ -48,6 +50,7 @@ export const services = [
     ),
     cta: "Protege tu Futuro",
     icon: <MdWorkHistory size={36} className="text-golden-accent3" />,
+    link: "/contact"
   },
   {
     title: "Accidentes de Tránsito",
@@ -60,6 +63,7 @@ export const services = [
     ),
     cta: "Recupera tu Tranquilidad",
     icon: <BsFillStoplightsFill size={36} className="text-golden-accent3" />,
+    link: "/contact"
   },
   {
     title: "Divorcios",
@@ -72,6 +76,7 @@ export const services = [
     ),
     cta: "Consulta Hoy",
     icon: <FaHeartBroken size={36} className="text-golden-accent3" />,
+    link: "/contact"
   },
   {
     title: "Delitos relacionados con drogas",
@@ -86,6 +91,7 @@ export const services = [
     ),
     cta: "Consulta Hoy",
     icon: <GiSkullWithSyringe size={36} className="text-golden-accent3" />,
+    link: "/contact"
   },
   {
     title: "Delitos informáticos",
@@ -97,9 +103,8 @@ export const services = [
       </p>
     ),
     cta: "Consulta Hoy",
-    icon: (
-      <TbDeviceDesktopExclamation size={36} className="text-golden-accent3" />
-    ),
+    icon: <TbDeviceDesktopExclamation size={36} className="text-golden-accent3" />,
+    link: "/contact"
   },
 ];
 
