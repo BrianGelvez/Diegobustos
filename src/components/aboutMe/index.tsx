@@ -35,9 +35,9 @@ export default function AboutMe() {
         {dataImage.map((image) => (
           <div
             key={image.id}
-            className="flex-shrink-0 min-w-full lg:min-w-0 lg:w-72 justify-center h-96 flex flex-col items-center mb-4 lg:mb-0"
+            className="flex-shrink-0 min-w-full lg:min-w-0 lg:w-72 justify-center h-[450px] flex flex-col items-center mb-4 lg:mb-0"
           >
-            <div className="relative w-full h-96">
+            <div className="relative w-full h-[450px]">
               <Image
                 src={image.src}
                 alt={image.alt}
