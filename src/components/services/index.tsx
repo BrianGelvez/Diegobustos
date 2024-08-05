@@ -104,7 +104,7 @@ export default function Services() {
               alt="approbach"
               width={230}
               height={500}
-              className="h-64 rounded-xl w-full"
+              className="h-80 rounded-xl w-full"
             />
             <p className="text-center text-2xl underline">{ele.title}</p>
             <p className="text-center">{ele.description}</p>

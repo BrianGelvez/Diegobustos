@@ -62,7 +62,7 @@ export default function Faq() {
             />
             <div
               className="w-full max-h-0 rounded-5 z-10 peer-checked/faq:py-2 peer-checked/faq:max-h-96
-                   transition-all duration-700 pl-5 pr-2
+                   transition-all duration-300 pl-5 pr-2
                    overflow-hidden"
             >
               <p className="">{faq.answers}</p>
