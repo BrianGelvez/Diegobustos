@@ -44,8 +44,8 @@ export default function RootLayout({
           content="Especializados en restitución de motos, defensas penales, accidentes de tránsito, y más. Tu abogado de confianza en Córdoba."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://tudominio.com" />
-        <meta property="og:image" content="https://tudominio.com/imagen.jpg" />
+        <meta property="og:url" content="https://diegobustos.vercel.app/" />
+        <meta property="og:image" content="https://diegobustos.vercel.app/logo.webp" />
         <meta property="og:locale" content="es_ES" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
@@ -56,7 +56,7 @@ export default function RootLayout({
           name="twitter:description"
           content="Especializados en restitución de motos, defensas penales, accidentes de tránsito, y más. Tu abogado de confianza en Córdoba."
         />
-        <meta name="twitter:image" content="https://tudominio.com/imagen.jpg" />
+        <meta name="twitter:image" content="https://diegobustos.vercel.app/logo.webp" />
         <meta name="twitter:site" content="@tucuenta" />
         <meta name="twitter:creator" content="@tucuenta" />
         <link rel="icon" href="/logo.webp" />
