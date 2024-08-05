@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -9,13 +9,13 @@ export default function Main() {
     <div className="relative flex flex-col h-screen">
       <Image
         src="/fondodeinicio.webp"
-        alt="imagen de fondo"
+        alt="Imagen de fondo de inicio para dispositivos móviles"
         layout="fill"
         className="lg:hidden"
       />
       <Image
         src="/fondodesktop.webp"
-        alt="imagen de fondo"
+        alt="Imagen de fondo de inicio para escritorio"
         layout="fill"
         objectFit="cover"
         className="hidden lg:block"
@@ -34,7 +34,7 @@ export default function Main() {
                 src="/balance.webp"
                 width={55}
                 height={55}
-                alt="balance"
+                alt="Imagen de una balanza, símbolo de justicia"
                 className="lg:w-20"
               />
             </div>
@@ -46,14 +46,15 @@ export default function Main() {
               Especialista en la recuperación de motos, brindando un servicio
               rápido y eficiente.
             </p>
-            <a href="/#contacto" className="w-[50%] lg:w-80 text-black mt-2 text-center font-semibold bg-golden-primary bg-gradient-to-tl from-golden-secundary via-golden-primary border-solid border-2 border-[#a9b3c9] rounded-lg p-1 shadow-lg shadow-yellow-500/50">
+            <a
+              href="/#contacto"
+              className="w-[50%] lg:w-80 text-black mt-2 text-center font-semibold bg-golden-primary bg-gradient-to-tl from-golden-secundary via-golden-primary border-solid border-2 border-[#a9b3c9] rounded-lg p-1 shadow-lg shadow-yellow-500/50"
+            >
               Consulta
             </a>
           </div>
         </div>
-        <div
-          className="absolute bottom-0 w-full h-24 bg-black opacity-50 flex justify-center items-center"
-        >
+        <div className="absolute bottom-0 w-full h-24 bg-black opacity-50 flex justify-center items-center">
           <Link href="#aboutme">
             <FaArrowDown size={36} className="text-white" />
           </Link>

@@ -37,13 +37,13 @@ export default function AboutMe() {
         <div className="w-auto flex flex-row justify-center gap-14 md:gap20 lg:gap-36 items-center">
           <Image
             src="/firma.webp"
-            alt="firmadeabogado"
+            alt="Firma del abogado Diego Bustos"
             width={130}
             height={130}
           />
           <Image
             src="/matriculadeabogado.webp"
-            alt="matriculaabogado"
+            alt="Matrícula profesional de Diego Bustos"
             width={130}
             height={130}
           />
@@ -56,27 +56,40 @@ export default function AboutMe() {
               <p className="gradient-text text-[12px]">Servicio estrella</p>
               <Image
                 src="/estrellas.webp"
-                alt="tresestrellas"
+                alt="Icono de tres estrellas"
                 width={40}
                 height={40}
               />
             </span>
-            <a href="/#contacto" className="text-center py-2 px-4 bg-golden-secundary bg-gradient-to-tl via-golden-primary from-golden-accent2 text-white rounded-md">
+            <a
+              href="/#contacto"
+              className="text-center py-2 px-4 bg-golden-secundary bg-gradient-to-tl via-golden-primary from-golden-accent2 text-white rounded-md"
+            >
               Restitucion de motos
             </a>
           </div>
         </div>
         <div className="w-full flex flex-col gap-5 my-12">
-          <a href="/aboutMe" className="text-center mt-2 w-full font-extralight text-slate-200 border-2 border-golden-secundary rounded-lg p-1 shadow-lg shadow-yellow-500/50">
+          <a
+            href="/aboutMe"
+            className="text-center mt-2 w-full font-extralight text-slate-200 border-2 border-golden-secundary rounded-lg p-1 shadow-lg shadow-yellow-500/50"
+          >
             Conoce mas sobre mi
           </a>
-          <a href="/services" className="text-center mt-2 w-full font-extralight text-slate-200 border-2 border-golden-secundary rounded-lg p-1 shadow-lg shadow-yellow-500/50">
+          <a
+            href="/services"
+            className="text-center mt-2 w-full font-extralight text-slate-200 border-2 border-golden-secundary rounded-lg p-1 shadow-lg shadow-yellow-500/50"
+          >
             Otros servicios
           </a>
         </div>
         <div className="">
-          <h1 className="text-2xl gradient-text">Dirección Estudio Jurídico:</h1>
-          <p className="text-xs mb-7">Barrio Centro de la ciudad de Córdoba Capital.</p>
+          <h1 className="text-2xl gradient-text">
+            Dirección Estudio Jurídico:
+          </h1>
+          <p className="text-xs mb-7">
+            Barrio Centro de la ciudad de Córdoba Capital.
+          </p>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.153636666363!2d-64.19079422439285!3d-31.409892874264706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298793b38fc75%3A0x5dfe51bb4fd4c8e!2sLa%20Rioja%20441%2C%20X5000%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1722692377372!5m2!1ses!2sar"
             className="w-full h-[305px] rounded-lg"

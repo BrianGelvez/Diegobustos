@@ -8,7 +8,7 @@ export default function Testimonies() {
     <div className="mt-24 px-4 lg:px-10 xl:px-0 xl:w-container xl:mx-auto xl:justify-center xl:items-center">
       <Image
         src="/fondo.png"
-        alt="fondo"
+        alt="Fondo de la página de Diego Bustos, abogado penalista"
         layout="fill"
         objectFit="cover"
         quality={100}
@@ -26,7 +26,7 @@ export default function Testimonies() {
           src="/balance.webp"
           width={50}
           height={50}
-          alt="balance"
+          alt="Imagen de una balanza, símbolo de justicia"
           className="lg:w-12"
         />
       </div>
@@ -66,13 +66,13 @@ export default function Testimonies() {
               <div className="w-full flex flex-row justify-between items-start">
                 <Image
                   src={ele.image}
-                  alt="testimonio1"
+                  alt={`Foto del testimonio de ${ele.name}`}
                   width={100}
                   height={100}
                 />
                 <Image
                   src="/logo.webp"
-                  alt="testimonio1"
+                  alt="Logo de Diego Bustos, abogado penalista"
                   width={40}
                   height={40}
                 />
@@ -88,8 +88,18 @@ export default function Testimonies() {
           ))}
         </div>
         <div className="w-full flex flex-col justify-center items-center gap-4 my-12">
-          <a href="/services" className="text-center w-full lg:w-[40%] py-2 px-4 bg-golden-secundary bg-gradient-to-tl via-golden-primary from-golden-accent2 text-white rounded-md">Volver a mis servicios</a>
-          <a href="/faq" className="text-center w-full lg:w-[40%] py-2 px-4 bg-golden-secundary bg-gradient-to-tl via-golden-primary from-golden-accent2 text-white rounded-md">Preguntas Frecuentes</a>
+          <a
+            href="/services"
+            className="text-center w-full lg:w-[40%] py-2 px-4 bg-golden-secundary bg-gradient-to-tl via-golden-primary from-golden-accent2 text-white rounded-md"
+          >
+            Volver a mis servicios
+          </a>
+          <a
+            href="/faq"
+            className="text-center w-full lg:w-[40%] py-2 px-4 bg-golden-secundary bg-gradient-to-tl via-golden-primary from-golden-accent2 text-white rounded-md"
+          >
+            Preguntas Frecuentes
+          </a>
         </div>
       </div>
     </div>

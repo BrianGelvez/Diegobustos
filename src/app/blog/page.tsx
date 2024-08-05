@@ -5,7 +5,7 @@ export default function Blog() {
     <div className="mt-24 px-4 lg:px-10 xl:px-0 xl:w-container xl:mx-auto xl:justify-center xl:items-center">
       <Image
         src="/fondo.png"
-        alt="fondo"
+        alt="Fondo de la página de Diego Bustos, abogado penalista"
         layout="fill"
         objectFit="cover"
         quality={100}
@@ -23,7 +23,7 @@ export default function Blog() {
           src="/balance.webp"
           width={50}
           height={50}
-          alt="balance"
+          alt="Imagen de una balanza, símbolo de justicia"
           className="lg:w-12"
         />
       </div>

@@ -40,7 +40,7 @@ export default function Header() {
               width={50}
               height={50}
               src="/logo.webp"
-              alt="Logo header.."
+              alt="Logo de Diego Bustos, abogado penalista"
             />
           </Link>
         </span>

@@ -69,7 +69,7 @@ export default function Form() {
     >
       <Image
         src="/fondo.png"
-        alt="fondo"
+        alt="Fondo de la página de Diego Bustos, abogado penalista"
         layout="fill"
         objectFit="cover"
         quality={100}

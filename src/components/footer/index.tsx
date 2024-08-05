@@ -13,7 +13,7 @@ export default function Footer() {
     <div className="relative w-full flex flex-col gap-7">
       <Image
         src="/fondo.png"
-        alt="cargando"
+        alt="Fondo de la página de Diego Bustos, abogado penalista"
         layout="fill"
         objectFit="cover"
         quality={100}
