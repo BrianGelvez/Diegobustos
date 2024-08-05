@@ -47,7 +47,7 @@ export default function Footer() {
         </div>
         <div className="w-full flex flex-col justify-center items-center">
             <p className="gradient-text text-[15px]">Diego Bustos - Abogado</p>
-            <p className="gradient-text text-[10px]">Creador: @funnel_webs <SiInstagram/></p>
+            <p className="gradient-text text-[8px]">Creador: @Brian.Gelvez <SiInstagram/></p>
             <p className="gradient-text text-[10px]"> &copy; {currentYear}</p>
         </div>
       </div>
