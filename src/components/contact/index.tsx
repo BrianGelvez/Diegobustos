@@ -53,9 +53,12 @@ export default function Contact() {
             height={40}
           />
         </span>
-        <a href="/#contacto" className="w-[50%] lg:w-80 text-black mt-2 text-center font-semibold bg-golden-primary bg-gradient-to-tl from-golden-secundary via-golden-primary border-solid border-2 border-[#a9b3c9] rounded-lg p-1 shadow-lg shadow-yellow-500/50">
-              Consulta
-            </a>
+        <a
+          href="/#contacto"
+          className="w-[50%] lg:w-80 text-black mt-2 text-center font-semibold bg-golden-primary bg-gradient-to-tl from-golden-secundary via-golden-primary border-solid border-2 border-[#a9b3c9] rounded-lg p-1 shadow-lg shadow-yellow-500/50"
+        >
+          restitución de moto
+        </a>
       </div>
       <div className="w-full flex flex-col justify-center items-center gap-4 mt-2">
         <p className="text-center text-lg">
