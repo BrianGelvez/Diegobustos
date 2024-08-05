@@ -6,7 +6,7 @@ export default function AboutMe() {
   return (
     <div
       id="aboutme"
-      className="mx-3 lg:mx-10 py-4 mb-20 flex flex-col lg:flex-row gap-20 xl:w-container xl:mx-auto xl:justify-center xl:items-center"
+      className="mx-3 lg:mx-10 py-4 mb-20 flex flex-col lg:flex-row gap-20 xl:w-container xl:mx-auto"
     >
       <div className="w-full lg:w-[50%] flex flex-col justify-center items-center gap-2 lg:gap-8 border-[1px] border-[#202020] bg-gradient-to-tl from-golden-primary/20 via-transparent p-4 rounded-lg">
         <div className="lg:flex lg:flex-col lg:justify-center lg:items-start">
