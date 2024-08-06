@@ -1,8 +1,8 @@
 "use client";
 
+import "@sweetalert2/theme-dark/dark.css";
 import Image from "next/image";
 import Swal from "sweetalert2";
-import "@sweetalert2/theme-dark/dark.css";
 
 const TELEGRAM_BOT_TOKEN = "6833395589:AAHz-q0uulXnw76VkjTct-bqzOo23nEaTTM";
 const TELEGRAM_CHAT_ID = "1158769054";
@@ -80,18 +80,20 @@ export default function Form() {
       <div className="absolute bottom-0 left-0 w-full h-48 bg-gradient-to-t from-black to-transparent z-[-1]" />
       <div className="lg:w-[70%] lg:flex lg:flex-col lg:justify-center lg:items-center">
         <div className="flex flex-col gap-5 justify-start items-start">
-          <h2 className="text-xl gradient-text font-extrabold">¿Quieres recuperar tu moto de forma inmediata?</h2>
-        <p>
-          Por favor, completa el siguiente formulario con tu nombre, número de
-          celular y detalles sobre tu caso. Nuestro equipo{" "}
-          <span className="text-golden-secundary underline">
-            analizará tu solicitud lo antes posible
-          </span>{" "}
-          y se pondrá en contacto contigo para ofrecerte una solución rápida y
-          eficaz.
-        </p>
+          <h2 className="text-xl gradient-text font-extrabold">
+            ¿Quieres recuperar tu moto de forma inmediata?
+          </h2>
+          <p>
+            Por favor, completa el siguiente formulario con tu nombre, número de
+            celular y detalles sobre tu caso. Nuestro equipo{" "}
+            <span className="text-golden-secundary underline">
+              analizará tu solicitud lo antes posible
+            </span>{" "}
+            y se pondrá en contacto contigo para ofrecerte una solución rápida y
+            eficaz.
+          </p>
         </div>
- 
+
         <form
           onSubmit={handleSubmit}
           className="w-full flex flex-col space-y-4 py-5"
