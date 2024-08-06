@@ -70,7 +70,7 @@ export default function Header() {
               placeholder="menu"
               className="peer/menu hidden"
             />
-            <Mobile/>
+            <Mobile handleClickClose={() => setOpened(false)}/>
           </div>
           <div className="hidden lg:flex">
             <Desktop />

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-export default function Mobile() {
+export default function Mobile(handleClickClose: any) {
   const navItems = [
     { id: 0, text: "INICIO", idLink: "/" },
     { id: 1, text: "SOMBRE MI", idLink: "aboutMe" },
@@ -30,7 +30,7 @@ export default function Mobile() {
           key={item.id}
           className="w-full flex relative flex-col justify-center items-center gap-6 pt-5 text-xl"
         >
-          <li className="mr-10">
+          <li onClick={handleClickClose} className="mr-10">
             <Link href={item.idLink} scroll={true}>{item.text}</Link>
           </li>
         </ul>
