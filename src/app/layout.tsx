@@ -24,7 +24,10 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
-
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css"
+        />
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
@@ -42,7 +45,10 @@ export default function RootLayout({
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://diegobustos.vercel.app/" />
-        <meta property="og:image" content="https://diegobustos.vercel.app/logo.webp" />
+        <meta
+          property="og:image"
+          content="https://diegobustos.vercel.app/logo.webp"
+        />
         <meta property="og:locale" content="es_ES" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
@@ -53,15 +59,14 @@ export default function RootLayout({
           name="twitter:description"
           content="Especializados en restitución de motos, defensas penales, accidentes de tránsito, y más. Tu abogado de confianza en Córdoba."
         />
-        <meta name="twitter:image" content="https://diegobustos.vercel.app/logo.webp" />
+        <meta
+          name="twitter:image"
+          content="https://diegobustos.vercel.app/logo.webp"
+        />
         <meta name="twitter:site" content="@tucuenta" />
         <meta name="twitter:creator" content="@tucuenta" />
         <link rel="icon" href="/logo.webp" />
         <title>Abogado Penalista - Servicios Legales en Córdoba</title>
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css"
-        />
       </head>
       <body className={merriweather.className}>
         <Header />
