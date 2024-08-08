@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contacto - Diego Bustos, Abogado Penalista en Córdoba",
     description: "Ponte en contacto con Diego Bustos, abogado penalista en Córdoba. Agenda una reunión, conoce la dirección de nuestro estudio jurídico y encuentra nuestros datos de contacto. Estamos aquí para ayudarte con tus necesidades legales.",
-    url: "https://tudominio.com/contact",
+    url: "https://diegobustos.vercel.app/contact",
     images: [
       {
-        url: "https://tudominio.com/imagen-contacto.jpg",
+        url: "https://diegobustos.vercel.app/logopng.png",
         width: 1200,
         height: 630
       }
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description: "Ponte en contacto con Diego Bustos, abogado penalista en Córdoba. Agenda una reunión, conoce la dirección de nuestro estudio jurídico y encuentra nuestros datos de contacto. Estamos aquí para ayudarte con tus necesidades legales.",
     images: [
       {
-        url: "https://tudominio.com/imagen-contacto.jpg",
+        url: "https://diegobustos.vercel.app/logopng.png",
         width: 1200,
         height: 630
       }

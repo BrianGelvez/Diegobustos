@@ -10,10 +10,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sobre Diego Bustos - Abogado Penalista en Córdoba",
     description: "Conoce a Diego Bustos, abogado penalista en Córdoba, con más de 4 años de experiencia en derecho penal y civil. Formado en la Universidad Nacional de Córdoba, comprometido a defender tus derechos con profesionalismo y dedicación.",
-    url: "https://tudominio.com/about",
+    url: "https://diegobustos.vercel.app/aboutMe",
     images: [
       {
-        url: "https://tudominio.com/imagen-about.jpg",
+        url: "https://diegobustos.vercel.app/logopng.png",
         width: 1200,
         height: 630
       }
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description: "Conoce a Diego Bustos, abogado penalista en Córdoba, con más de 4 años de experiencia en derecho penal y civil. Formado en la Universidad Nacional de Córdoba, comprometido a defender tus derechos con profesionalismo y dedicación.",
     images: [
       {
-        url: "https://tudominio.com/imagen-about.jpg",
+        url: "https://diegobustos.vercel.app/logopng.png",
         width: 1200,
         height: 630
       }

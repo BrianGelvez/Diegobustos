@@ -8,10 +8,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Servicios de Diego Bustos - Abogado Penalista en Córdoba",
     description: "Descubre los servicios legales especializados ofrecidos por Diego Bustos, abogado penalista en Córdoba. Ofrecemos defensa penal confiable, asesoramiento en derecho civil y más, con un enfoque comprometido y profesional.",
-    url: "https://tudominio.com/services",
+    url: "https://diegobustos.vercel.app/services",
     images: [
       {
-        url: "https://tudominio.com/imagen-services.jpg",
+        url: "https://diegobustos.vercel.app/logopng.png",
         width: 1200,
         height: 630
       }
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: "Descubre los servicios legales especializados ofrecidos por Diego Bustos, abogado penalista en Córdoba. Ofrecemos defensa penal confiable, asesoramiento en derecho civil y más, con un enfoque comprometido y profesional.",
     images: [
       {
-        url: "https://tudominio.com/imagen-services.jpg",
+        url: "https://diegobustos.vercel.app/logopng.png",
         width: 1200,
         height: 630
       }

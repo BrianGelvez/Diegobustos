@@ -10,10 +10,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Diego Bustos - Abogado Penalista en Córdoba",
     description: "Diego Bustos, abogado penalista en Córdoba, especializado en la restitución de motos y defensas penales. Ofrecemos servicios rápidos y eficientes para tus necesidades legales.",
-    url: "https://tudominio.com",
+    url: "https://diegobustos.vercel.app",
     images: [
       {
-        url: "https://tudominio.com/imagen-portada.jpg",
+        url: "https://diegobustos.vercel.app/logopng.png",
         width: 1200,
         height: 630
       }
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description: "Diego Bustos, abogado penalista en Córdoba, especializado en la restitución de motos y defensas penales. Ofrecemos servicios rápidos y eficientes para tus necesidades legales.",
     images: [
       {
-        url: "https://tudominio.com/imagen-portada.jpg",
+        url: "https://diegobustos.vercel.app/logopng.png",
         width: 1200,
         height: 630
       }

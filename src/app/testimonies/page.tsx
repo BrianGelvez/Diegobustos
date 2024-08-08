@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Testimonios de Diego Bustos - Abogado Penalista en Córdoba",
     description:
       "Lee los testimonios de nuestros clientes y descubre cómo Diego Bustos, abogado penalista en Córdoba, ha ayudado a resolver sus casos con éxito. Conoce la opinión de quienes confiaron en nuestros servicios legales.",
-    url: "https://tudominio.com/testimonios",
+    url: "https://diegobustos.vercel.app/testimonies",
     images: [
       {
-        url: "https://tudominio.com/imagen-testimonios.jpg",
+        url: "https://diegobustos.vercel.app/logopng.png",
         width: 1200,
         height: 630,
       },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
       "Lee los testimonios de nuestros clientes y descubre cómo Diego Bustos, abogado penalista en Córdoba, ha ayudado a resolver sus casos con éxito. Conoce la opinión de quienes confiaron en nuestros servicios legales.",
     images: [
       {
-        url: "https://tudominio.com/imagen-testimonios.jpg",
+        url: "https://diegobustos.vercel.app/logopng.png",
         width: 1200,
         height: 630,
       },

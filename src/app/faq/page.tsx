@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Preguntas Frecuentes - Diego Bustos, Abogado Penalista en Córdoba",
     description:
       "Encuentra respuestas a las preguntas más frecuentes sobre el derecho penal y cómo Diego Bustos, abogado penalista en Córdoba, puede asistirte. Conoce más sobre los servicios, el proceso penal y tus derechos legales.",
-    url: "https://tudominio.com/faq",
+    url: "https://diegobustos.vercel.app/faq",
     images: [
       {
-        url: "https://tudominio.com/imagen-faq.jpg",
+        url: "https://diegobustos.vercel.app/logopng.png",
         width: 1200,
         height: 630,
       },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
       "Encuentra respuestas a las preguntas más frecuentes sobre el derecho penal y cómo Diego Bustos, abogado penalista en Córdoba, puede asistirte. Conoce más sobre los servicios, el proceso penal y tus derechos legales.",
     images: [
       {
-        url: "https://tudominio.com/imagen-faq.jpg",
+        url: "https://diegobustos.vercel.app/logopng.png",
         width: 1200,
         height: 630,
       },
