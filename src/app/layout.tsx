@@ -47,7 +47,7 @@ export default function RootLayout({
         <meta property="og:url" content="https://diegobustos.vercel.app/" />
         <meta
           property="og:image"
-          content="https://diegobustos.vercel.app/logo.webp"
+          content="https://diegobustos.vercel.app/logopng.png"
         />
         <meta property="og:locale" content="es_ES" />
         <meta name="twitter:card" content="summary_large_image" />
