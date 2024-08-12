@@ -39,6 +39,7 @@ export const metadata: Metadata = {
   },
 };
 
+
 export default function TestimoniesPage() {
   return <Testimonies />;
 }
