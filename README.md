@@ -35,8 +35,7 @@ Este sitio web está destinado a brindar una experiencia completa para los clien
   - Next.js
   - React
   - Tailwind CSS
-- **Backend**: 
-  - Node.js (si aplica)
+
 - **Otras**:
   - Google Maps API
   - Calendly API
