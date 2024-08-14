@@ -40,10 +40,10 @@ export default function Main() {
             </div>
 
             <h1 className="text-4xl lg:text-6xl font-bold mt-7">
-              Restitución de Motos en Córdoba
+            Restitución de Motos en Córdoba
             </h1>
             <p className="text-lg lg:text-2xl mt-3">
-              Especialista en la recuperación de motos, brindando un servicio
+              Especialista en la recuperación de vehiculos, brindando un servicio
               rápido y eficiente.
             </p>
             <a
